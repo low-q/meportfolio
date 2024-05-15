@@ -111,7 +111,7 @@ function App() {
     </div>
     
     <div className="left-half">
-        <img src="pi.jpg" alt="Photo" />
+        <img src="flipper.jpg" alt="Photo" />
     </div>
 </div>
      
