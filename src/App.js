@@ -111,7 +111,7 @@ function App() {
     </div>
     
     <div className="right-half">
-        <img src="photo.jpg" alt="Photo" />
+        <img src="pi.jpg" alt="Photo" />
     </div>
 </div>
      
