@@ -98,6 +98,7 @@ function App() {
           </div>
       </div>
       <div className="projects-container">
+        <div className="left-half">
       <div className="left-column">
                   
                   <h1>RFID-BookLibrary v1.0</h1>
@@ -107,6 +108,7 @@ function App() {
                   The plan is to make a fully dynamic book reading tracking and the tracking is available 24/7 at any time.
                   
                   </p>
+              </div>
               </div>
           
           <div className="right-half">
