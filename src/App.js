@@ -103,9 +103,11 @@ function App() {
         <div className="left-column">
             <h1>Flipper Zero Evil Twin attack</h1> <br />
             <p>
-Exploring others' projects in cybersecurity offers practical experience,
- exposes you to diverse challenges, and fosters collaboration within the community,
-  enhancing your skills and understanding in the field.</p>
+
+            Exploring different cybersecurity projects is like diving into a practical learning adventure, where you encounter all sorts of challenges and real-life situations.
+             Getting involved in these projects doesn't just improve your hands-on skills; it also encourages teamwork within the cybersecurity community. 
+             Recently, I tried out a project involving an "evil twin" attack on my own home Wi-Fi network, using my own login details. 
+             This experience helped me understand how such attacks work and why it's essential to have strong security measures in place to stay safe online.</p>
         </div>
         
         <div className="left-column">
