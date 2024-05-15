@@ -206,9 +206,6 @@ body {
 
 
 /* Adjustments for smaller screens */
-/* Existing styles */
-
-/* Adjustments for smaller screens */
 @media screen and (max-width: 768px) {
     /* Adjust main content width for smaller screens */
     .main-content {
@@ -223,6 +220,9 @@ body {
 
     /* Adjust photo size for smaller screens */
     .photo-container img {
+        width: 25%; /* Adjust photo size for smaller screens */
+    }
+    .projects-container img {
         width: 25%; /* Adjust photo size for smaller screens */
     }
 
@@ -249,17 +249,6 @@ body {
     .top-right h1 {
         font-size: 16px; /* Adjust font size for smaller screens */
     }
-
-    /* Adjustments for projects container on smaller screens */
-    .projects-container {
-        flex-direction: column; /* Stack items vertically */
-    }
-    
-    .left-half,
-    .right-half {
-        width: 100%; /* Set width to full for smaller screens */
-        margin-bottom: 20px; /* Add margin between the halves */
-    }
 }
 
 /* Further adjustments for even smaller screens */
@@ -277,6 +266,9 @@ body {
 
     /* Adjust photo size further for even smaller screens */
     .photo-container img {
+        width: 35%; /* Adjust photo size for even smaller screens */
+    }
+    .projects-container img {
         width: 35%; /* Adjust photo size for even smaller screens */
     }
 
@@ -302,17 +294,6 @@ body {
     /* Adjust font size in top-right section further for even smaller screens */
     .top-right h1 {
         font-size: 14px; /* Adjust font size for even smaller screens */
-    }
-
-    /* Adjustments for projects container on even smaller screens */
-    .projects-container {
-        flex-direction: column; /* Stack items vertically */
-    }
-    
-    .left-half,
-    .right-half {
-        width: 100%; /* Set width to full for even smaller screens */
-        margin-bottom: 20px; /* Add margin between the halves */
     }
 }
 
