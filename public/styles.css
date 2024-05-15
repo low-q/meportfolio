@@ -203,3 +203,91 @@ body {
     margin: auto; /* Centers the image horizontally */
 }
 
+/* styles.css */
+
+/* Existing styles */
+
+@media screen and (max-width: 768px) {
+    /* Adjust main content width for smaller screens */
+    .main-content {
+      width: 90%; /* Adjust width for smaller screens */
+    }
+  
+    /* Reduce font size for smaller screens */
+    .left-text,
+    .right-text {
+      font-size: 100px; /* Adjust font size for smaller screens */
+    }
+  
+    /* Adjust photo size for smaller screens */
+    .photo-container img {
+      width: 25%; /* Adjust photo size for smaller screens */
+    }
+  
+    /* Adjust padding and font size for smaller screens */
+    .left-column {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .left-column p {
+      font-size: 18px; /* Adjust font size for smaller screens */
+    }
+  
+    /* Adjust resume photo size for smaller screens */
+    .resume-photo {
+      height: 800px; /* Adjust resume photo size for smaller screens */
+    }
+  
+    /* Adjust photo size in left-half for smaller screens */
+    .left-half img {
+      max-width: 80%; /* Adjust photo size for smaller screens */
+    }
+  
+    /* Adjust font size in top-right section for smaller screens */
+    .top-right h1 {
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Adjust main content width for even smaller screens */
+    .main-content {
+      width: 95%; /* Adjust width for even smaller screens */
+    }
+  
+    /* Reduce font size further for even smaller screens */
+    .left-text,
+    .right-text {
+      font-size: 80px; /* Adjust font size for even smaller screens */
+    }
+  
+    /* Adjust photo size further for even smaller screens */
+    .photo-container img {
+      width: 35%; /* Adjust photo size for even smaller screens */
+    }
+  
+    /* Adjust padding and font size further for even smaller screens */
+    .left-column {
+      padding: 5px; /* Adjust padding for even smaller screens */
+    }
+  
+    .left-column p {
+      font-size: 16px; /* Adjust font size for even smaller screens */
+    }
+  
+    /* Adjust resume photo size further for even smaller screens */
+    .resume-photo {
+      height: 600px; /* Adjust resume photo size for even smaller screens */
+    }
+  
+    /* Adjust photo size in left-half further for even smaller screens */
+    .left-half img {
+      max-width: 100%; /* Adjust photo size for even smaller screens */
+    }
+  
+    /* Adjust font size in top-right section further for even smaller screens */
+    .top-right h1 {
+      font-size: 14px; /* Adjust font size for even smaller screens */
+    }
+  }
+  
