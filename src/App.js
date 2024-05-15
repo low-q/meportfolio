@@ -107,10 +107,14 @@ function App() {
             Exploring different cybersecurity projects is like diving into a practical learning adventure, where you encounter all sorts of challenges and real-life situations.
              Getting involved in these projects doesn't just improve your hands-on skills; it also encourages teamwork within the cybersecurity community. 
              Recently, I tried out a project involving an "evil twin" attack on my own home Wi-Fi network, using my own login details. 
-             This experience helped me understand how such attacks work and why it's essential to have strong security measures in place to stay safe online.</p>
+             This experience helped me understand 
+             how such attacks work and why it's essential 
+             to have strong security measures in place to stay safe online.</p>
+             <br />
+        <p>Credits goes to: . <a href="https://github.com/bigbrodude6119/flipper-zero-evil-portal"> bigbrodude6119.</a>
+        </p> 
         </div>
-        <br />
-        <p>Credits goes to: .</p>
+        
         
         
             
