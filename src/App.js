@@ -111,7 +111,7 @@ function App() {
              how such attacks work and why it's essential 
              to have strong security measures in place to stay safe online.</p>
              <br />
-        <p>Credits goes to: . <a href="https://github.com/bigbrodude6119/flipper-zero-evil-portal"> bigbrodude6119.</a>
+        <p>Credits goes to: . <a href="https://github.com/bigbrodude6119/flipper-zero-evil-portal" style="text-decoration: none; color: inherit;"> bigbrodude6119.</a>
         </p> 
         </div>
         
