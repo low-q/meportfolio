@@ -60,7 +60,7 @@ function App() {
                   <h1>OMG what's here?</h1>
                   <h2>hm.....</h2>
               </div>
-              <img className="resume-photo" src="image.png" alt="Resume" />
+              <img className="resume-photo" src="image1.png" alt="Resume" />                {/* watch this */}
           </div>
       </div>
 
