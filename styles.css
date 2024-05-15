@@ -207,107 +207,114 @@ body {
 
 /* Existing styles */
 
+/* Existing styles */
+
+/* Adjustments for smaller screens */
 @media screen and (max-width: 768px) {
     /* Adjust main content width for smaller screens */
     .main-content {
-      width: 90%; /* Adjust width for smaller screens */
+        width: 90%; /* Adjust width for smaller screens */
     }
-  
+
     /* Reduce font size for smaller screens */
     .left-text,
     .right-text {
-      font-size: 100px; /* Adjust font size for smaller screens */
+        font-size: 100px; /* Adjust font size for smaller screens */
     }
-  
+
     /* Adjust photo size for smaller screens */
     .photo-container img {
-      width: 25%; /* Adjust photo size for smaller screens */
+        width: 25%; /* Adjust photo size for smaller screens */
     }
-  
+
     /* Adjust padding and font size for smaller screens */
     .left-column {
-      padding: 10px; /* Adjust padding for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
     }
-  
+
     .left-column p {
-      font-size: 18px; /* Adjust font size for smaller screens */
+        font-size: 18px; /* Adjust font size for smaller screens */
     }
-  
+
     /* Adjust resume photo size for smaller screens */
     .resume-photo {
-      height: 800px; /* Adjust resume photo size for smaller screens */
+        height: 800px; /* Adjust resume photo size for smaller screens */
     }
-  
+
     /* Adjust photo size in left-half for smaller screens */
     .left-half img {
-      max-width: 80%; /* Adjust photo size for smaller screens */
+        max-width: 80%; /* Adjust photo size for smaller screens */
     }
-  
+
     /* Adjust font size in top-right section for smaller screens */
     .top-right h1 {
-      font-size: 16px; /* Adjust font size for smaller screens */
+        font-size: 16px; /* Adjust font size for smaller screens */
     }
-  }
-  
-  @media screen and (max-width: 480px) {
+}
+
+/* Further adjustments for even smaller screens */
+@media screen and (max-width: 480px) {
     /* Adjust main content width for even smaller screens */
     .main-content {
-      width: 95%; /* Adjust width for even smaller screens */
+        width: 95%; /* Adjust width for even smaller screens */
     }
-  
+
     /* Reduce font size further for even smaller screens */
     .left-text,
     .right-text {
-      font-size: 80px; /* Adjust font size for even smaller screens */
+        font-size: 80px; /* Adjust font size for even smaller screens */
     }
-  
+
     /* Adjust photo size further for even smaller screens */
     .photo-container img {
-      width: 35%; /* Adjust photo size for even smaller screens */
+        width: 35%; /* Adjust photo size for even smaller screens */
     }
-  
+
     /* Adjust padding and font size further for even smaller screens */
     .left-column {
-      padding: 5px; /* Adjust padding for even smaller screens */
+        padding: 5px; /* Adjust padding for even smaller screens */
     }
-  
+
     .left-column p {
-      font-size: 16px; /* Adjust font size for even smaller screens */
+        font-size: 16px; /* Adjust font size for even smaller screens */
     }
-  
+
     /* Adjust resume photo size further for even smaller screens */
     .resume-photo {
-      height: 600px; /* Adjust resume photo size for even smaller screens */
+        height: 600px; /* Adjust resume photo size for even smaller screens */
     }
-  
+
     /* Adjust photo size in left-half further for even smaller screens */
     .left-half img {
-      max-width: 100%; /* Adjust photo size for even smaller screens */
+        max-width: 100%; /* Adjust photo size for even smaller screens */
     }
-  
+
     /* Adjust font size in top-right section further for even smaller screens */
     .top-right h1 {
-      font-size: 14px; /* Adjust font size for even smaller screens */
+        font-size: 14px; /* Adjust font size for even smaller screens */
     }
-  }
-  @media screen and (max-width: 1024px) {
-    /* Adjustments for tablets */
+}
+
+/* Adjustments for tablets */
+@media screen and (max-width: 1024px) {
     .left-text,
     .right-text {
-      font-size: 80px; /* Adjust font size for tablets */
+        font-size: 80px; /* Adjust font size for tablets */
     }
-  }
-  @media screen and (max-width: 414px) {
-    /* Adjustments for large portrait mobile devices */
+}
+
+/* Adjustments for large portrait mobile devices */
+@media screen and (max-width: 414px) {
     .left-text,
     .right-text {
-      font-size: 40px; /* Adjust font size for large portrait mobile devices */
+        font-size: 40px; /* Adjust font size for large portrait mobile devices */
     }
-  }
-  @media screen and (max-width: 375px) {
-    /* Adjustments for standard portrait mobile devices */
+}
+
+/* Adjustments for standard portrait mobile devices */
+@media screen and (max-width: 375px) {
     .left-text,
     .right-text {
-      font-size: 35px; /* Adjust font size for standard portrait mobile devices */
+        font-size: 35px; /* Adjust font size for standard portrait mobile devices */
     }
-  }
+}
