@@ -290,4 +290,24 @@ body {
       font-size: 14px; /* Adjust font size for even smaller screens */
     }
   }
-  
+  @media screen and (max-width: 1024px) {
+    /* Adjustments for tablets */
+    .left-text,
+    .right-text {
+      font-size: 80px; /* Adjust font size for tablets */
+    }
+  }
+  @media screen and (max-width: 414px) {
+    /* Adjustments for large portrait mobile devices */
+    .left-text,
+    .right-text {
+      font-size: 40px; /* Adjust font size for large portrait mobile devices */
+    }
+  }
+  @media screen and (max-width: 375px) {
+    /* Adjustments for standard portrait mobile devices */
+    .left-text,
+    .right-text {
+      font-size: 35px; /* Adjust font size for standard portrait mobile devices */
+    }
+  }
