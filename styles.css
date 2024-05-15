@@ -226,6 +226,9 @@ body {
     .photo-container img {
         width: 25%; /* Adjust photo size for smaller screens */
     }
+    .projects-container img {
+        width: 25%; /* Adjust photo size for smaller screens */
+    }
 
     /* Adjust padding and font size for smaller screens */
     .left-column {
@@ -267,6 +270,9 @@ body {
 
     /* Adjust photo size further for even smaller screens */
     .photo-container img {
+        width: 35%; /* Adjust photo size for even smaller screens */
+    }
+    .projects-container img {
         width: 35%; /* Adjust photo size for even smaller screens */
     }
 
