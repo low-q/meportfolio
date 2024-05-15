@@ -202,7 +202,4 @@ body {
     display: block; /* Ensures image is treated as a block element */
     margin: auto; /* Centers the image horizontally */
 }
-.custom-link {
-    text-decoration: none;
-    color: inherit;
-}
+
