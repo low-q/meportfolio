@@ -109,10 +109,12 @@ function App() {
              Recently, I tried out a project involving an "evil twin" attack on my own home Wi-Fi network, using my own login details. 
              This experience helped me understand how such attacks work and why it's essential to have strong security measures in place to stay safe online.</p>
         </div>
+        <br />
+        <p>More about this project can be found on my GitHub page.</p>
         
-        <div className="left-column">
-            <p>More about this project can be found on my GitHub page.</p>
-        </div>
+        
+            
+        
     </div>
     
     <div className="left-half">
