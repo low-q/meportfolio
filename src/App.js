@@ -49,11 +49,7 @@ function App() {
                   and unexpected detours. Whether I'm navigating the winding alleys of a bustling bazaar or gazing in awe at the vast expanse of an untouched landscape, 
                   every step taken is a step closer to understanding the rich tapestry of humanity and the world we inhabit.
               </p>
-              <div>
-                  <img src="05.jpg" alt="Paris" />
-                  <img src="bakery.jpg" alt="Food" />
-                  <img src="collectibles.jpg" alt="randos" />
-              </div>
+              
           </div>
           <div className="right-column">
               <div className="resume-text">
@@ -64,6 +60,13 @@ function App() {
           </div>
       </div>
 
+      <div className="projects-container">
+      <div>
+                  <img src="05.jpg" alt="Paris" />
+                  <img src="bakery.jpg" alt="Food" />
+                  <img src="collectibles.jpg" alt="randos" />
+              </div>
+        </div>
       <div className="about-me">
           <h1>Projects</h1>
           <button className="down-arrow-button">
