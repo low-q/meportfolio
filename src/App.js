@@ -7,6 +7,7 @@ function App() {
       
     <section className="main-content">
         <h1 className="left-text">Fahad <br />Alotaibi</h1>
+        <h1>hhhee</h1>
         <div className="photo-container">
             <img src="grad.jpg" alt="Photo" />
             <img src="owilly.jpg" alt="Photo" />
