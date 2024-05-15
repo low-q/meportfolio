@@ -1,0 +1,204 @@
+body {
+    background-color: #f7ffe6;
+
+    font-family: Optima;
+}
+
+
+
+
+.main-content {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%; /* Adjust width as needed */
+}
+
+.left-text {
+    font-size: 125px;
+    text-align: left;
+}
+
+.right-text {
+    font-size: 125px;
+    text-align: right;
+    position: absolute; /* Position the text absolutely */
+    right: 0; /* Align to the right of the parent container */
+    width: calc(100% - 20px); /* Subtract the margin of the photo from the width */
+}
+
+
+
+
+
+.photo {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+
+.photo img {
+    width: 15%; /* Adjust the width of each photo */
+    height: auto;
+    margin-right: 10px; /* Add space between photos */
+}
+
+.down-arrow-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+
+.about-me h1 {
+    margin-bottom: 0px; /* Adjust as needed */
+}
+
+.about-me button.down-arrow-button {
+    margin-top: 0px; /* Adjust as needed */
+}
+
+
+/* Your existing styles */
+
+
+
+.photo-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the photos */
+    align-items: center; /* Vertically center the photos */
+    margin-top: 20px;
+}
+
+.photo-container img {
+    width: 15%;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+.right-content {
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.right-text {
+    font-size: 125px;
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 20px; /* Adjust as needed */
+    width: calc(100% - 40px); /* Adjust as needed */
+    margin: 0;
+}
+   /* Additional CSS styles */
+   .white-space {
+    height: 550px; /* Adjust as needed */
+}
+.about-me {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+    font-size: 50px;
+}
+.split-container {
+    display: flex;
+    justify-content: space-between;
+}
+.left-column {
+    width: 50%;
+    padding: 20px;
+    text-align: left;
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+
+}
+.left-column img {
+    width: 30%; /* Adjust the width of each image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add space between images */
+}
+
+
+.left-column p {
+    font-size: 20px; /* Adjust as needed */
+    line-height: 2.0; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+    
+}
+
+/* Additional CSS styles */
+
+/* Additional CSS styles */
+.resume-photo {
+    max-width: 100%;
+    height: 1117px;
+    transition: transform 2s ease, opacity 1s ease; /* Add opacity transition */
+    visibility: hidden; /* Hide the resume initially */
+    opacity: 0; /* Hide the resume initially */
+}
+
+.right-column:hover .resume-photo {
+    visibility: visible; /* Show the resume on hover */
+    opacity: 1; /* Show the resume on hover */
+    transform: rotateY(0deg); /* Rotate the resume on hover */
+}
+
+.right-column {
+    width: 50%;
+    position: relative; /* Ensure proper stacking context for child elements */
+    height: auto;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center align horizontally */
+}
+
+.resume-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    transition: opacity 1s ease; /* Add opacity transition */
+    opacity: 1; /* Ensure text is visible by default */
+    text-align: center;
+}
+
+.right-column:hover .resume-text {
+    opacity: 0; /* Fade out the text on hover */
+}
+.projects-container {
+    display: flex;
+}
+
+.left-half {
+    width: 50%;
+}
+
+.right-half {
+    width: 50%;
+   
+    
+}
+
+.top-right {
+    height: 50%;
+    text-align: left;
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+}
+.top-right h1 {
+    font-size: 20px;
+}
+
+.lower-right {
+    height: 50%;
+}
+.left-half img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Ensures image is treated as a block element */
+    margin: auto; /* Centers the image horizontally */
+}
