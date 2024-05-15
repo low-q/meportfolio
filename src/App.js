@@ -110,7 +110,7 @@ function App() {
              This experience helped me understand how such attacks work and why it's essential to have strong security measures in place to stay safe online.</p>
         </div>
         <br />
-        <p>More about this project can be found on my GitHub page.</p>
+        <p>Credits goes to: .</p>
         
         
             
