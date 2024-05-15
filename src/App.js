@@ -99,7 +99,7 @@ function App() {
       </div>
       {/* New section */}
 <div className="projects-container">
-    <div className="left-half">
+    <div className="right-half">
         <div className="left-column">
             <h1>Another Project</h1>
             <p>Description of another project goes here.</p>
@@ -110,7 +110,7 @@ function App() {
         </div>
     </div>
     
-    <div className="right-half">
+    <div className="left-half">
         <img src="pi.jpg" alt="Photo" />
     </div>
 </div>
