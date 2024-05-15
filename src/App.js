@@ -60,12 +60,10 @@ function App() {
           </div>
       </div>
 
-      <div className="projects-container">
-      <div>
-                  <img src="05.jpg" alt="Paris" />
-                  <img src="bakery.jpg" alt="Food" />
-                  <img src="collectibles.jpg" alt="randos" />
-              </div>
+      <div className="photo-container">
+            <img src="05.jpg" alt="Photo" />
+            <img src="bakery.jpg" alt="Photo" />
+            <img src="collectibles.jpg" alt="Photo" />
         </div>
       <div className="about-me">
           <h1>Projects</h1>
