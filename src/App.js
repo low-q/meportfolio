@@ -97,33 +97,24 @@ function App() {
               </div>
           </div>
       </div>
-      <div className="projects-container">
-        <div className="left-half">
-      <div className="left-column">
-                  
-                  <h1>RFID-BookLibrary v1.0</h1>
-                  <p>This Python script enables users to register books by scanning RFID stickers or cards using a Raspberry Pi with an MFRC522 RFID reader. 
-                      It allows users to input book information such as name, author, and genre. The script saves this information in text files named after the scanned RFID tag IDs. 
-                      When a tag is rescanned, the script retrieves the corresponding book information from the saved file and performs a Google search based on the book's title and author.
-                  The plan is to make a fully dynamic book reading tracking and the tracking is available 24/7 at any time.
-                  
-                  </p>
-              </div>
-              </div>
-          
-          <div className="right-half">
-              
-              <div className="left-half">
-              <img src="pi.jpg" alt="Your Photo" />
-          </div>
-              
-              <div className="left-column">
-                  
-                  <p>More about this project can be found on my GitHub page.</p>
-
-              </div>
-          </div>
-      </div>
+      {/* New section */}
+<div className="projects-container">
+    <div className="left-half">
+        <div className="left-column">
+            <h1>Another Project</h1>
+            <p>Description of another project goes here.</p>
+        </div>
+        
+        <div className="left-column">
+            <p>More about this project can be found on my GitHub page.</p>
+        </div>
+    </div>
+    
+    <div className="right-half">
+        <img src="photo.jpg" alt="Photo" />
+    </div>
+</div>
+     
       
       
       
