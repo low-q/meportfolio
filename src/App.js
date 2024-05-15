@@ -41,14 +41,7 @@ function App() {
                   I found myself captivated by the endless potential for innovation. 
                   It wasn't long before a question began to form in my mind, one that would shape my journey moving forward: What unique creation could I craft to leave my mark among these skilled modders?
               </p>
-              <h1>A little about me;</h1>
-              <p>There's an indescribable joy in the rhythm of wheels on tarmac, the whispered secrets of ancient cobblestones, 
-                  and the hum of languages unknown. Traveling, for me, is an art form—a symphony of sights, sounds, and sensations that awaken the senses and nourish the soul.
-
-                  Each journey is a narrative waiting to unfold, a story woven from chance encounters, serendipitous moments, 
-                  and unexpected detours. Whether I'm navigating the winding alleys of a bustling bazaar or gazing in awe at the vast expanse of an untouched landscape, 
-                  every step taken is a step closer to understanding the rich tapestry of humanity and the world we inhabit.
-              </p>
+              
               
           </div>
           <div className="right-column">
@@ -58,6 +51,16 @@ function App() {
               </div>
               <img className="resume-photo" src="image1.png" alt="Resume" />                {/* watch this */}
           </div>
+      </div>
+      <div className="left-column">
+      <h1>A little about me;</h1>
+              <p>There's an indescribable joy in the rhythm of wheels on tarmac, the whispered secrets of ancient cobblestones, 
+                  and the hum of languages unknown. Traveling, for me, is an art form—a symphony of sights, sounds, and sensations that awaken the senses and nourish the soul.
+
+                  Each journey is a narrative waiting to unfold, a story woven from chance encounters, serendipitous moments, 
+                  and unexpected detours. Whether I'm navigating the winding alleys of a bustling bazaar or gazing in awe at the vast expanse of an untouched landscape, 
+                  every step taken is a step closer to understanding the rich tapestry of humanity and the world we inhabit.
+              </p>
       </div>
 
       <div className="photo-container">
