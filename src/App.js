@@ -101,8 +101,11 @@ function App() {
 <div className="projects-container">
     <div className="right-half">
         <div className="left-column">
-            <h1>Another Project</h1>
-            <p>Description of another project goes here.</p>
+            <h1>Flipper Zero Evil Twin attack</h1> <br />
+            <p>
+Exploring others' projects in cybersecurity offers practical experience,
+ exposes you to diverse challenges, and fosters collaboration within the community,
+  enhancing your skills and understanding in the field.</p>
         </div>
         
         <div className="left-column">
