@@ -44,13 +44,7 @@ function App() {
               
               
           </div>
-          <div className="right-column">
-              <div className="resume-text">
-                  <h1>OMG what's here?</h1>
-                  <h2>hm.....</h2>
-              </div>
-              <img className="resume-photo" src="image1.png" alt="Resume" />                {/* watch this */}
-          </div>
+          
       </div>
       <div className="left-column">
       <h1>A little about me;</h1>
