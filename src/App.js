@@ -82,20 +82,17 @@ function App() {
               <div className="left-column">
                   
                   <h1>RFID-BookLibrary v1.0</h1>
-                  <p>This Python script enables users to register books by scanning RFID stickers or cards using a Raspberry Pi with an MFRC522 RFID reader. 
-                      It allows users to input book information such as name, author, and genre. The script saves this information in text files named after the scanned RFID tag IDs. 
+                  <p>It allows users to input book information such as name, author, and genre. The script saves this information in text files named after the scanned RFID tag IDs. 
                       When a tag is rescanned, the script retrieves the corresponding book information from the saved file and performs a Google search based on the book's title and author.
-                  The plan is to make a fully dynamic book reading tracking and the tracking is available 24/7 at any time.
-                  
                   </p>
               </div>
               
               
-              <div className="left-column">
+              
                   
                   <p><strong>More</strong> about this project can be found on my <a href= " https://github.com/low-q/RFID-BookLibrary"> GitHub page.</a></p>
 
-              </div>
+              
           </div>
       </div>
       {/* New section */}
@@ -104,9 +101,6 @@ function App() {
         <div className="left-column">
             <h1>Flipper Zero Evil Twin attack</h1> <br />
             <p>
-
-            Exploring different cybersecurity projects is like diving into a practical learning adventure, where you encounter all sorts of challenges and real-life situations.
-             Getting involved in these projects doesn't just improve your hands-on skills; it also encourages teamwork within the cybersecurity community. 
              Recently, I tried out a project involving an "evil twin" attack on my own home Wi-Fi network, using my own login details. 
              This experience helped me understand 
              how such attacks work and why it's essential 
