@@ -123,7 +123,36 @@ function App() {
         <img src="flipper.jpg" alt="Photo" />
     </div>
 </div>
-     
+<div className="projects-container">
+          <div className="left-half">
+              <img src="aws.png" alt="Your Photo" />
+          </div>
+          
+          <div className="right-half">
+              <div className="left-column">
+                  
+                  <h1>Building a 3-tier web application architecture with AWS</h1>
+                  <p>Implemented a robust AWS 3-tier architecture for Brainiac's web app, ensuring scalability, availability, and security. This included:
+
+                    <strong>Web Tier:</strong> Deployment of fault-tolerant web servers with Auto Scaling Groups and an Application Load Balancer.
+
+                    <strong>Application Tire:</strong> Establishment of secure backend servers accessed through a Bastion host for seamless communication with the Web Tier.
+
+                    <strong>Database Tier:</strong> Utilization of Amazon RDS with MySQL for secure data management and high availability.
+                  
+                  </p>
+              </div>
+              
+              
+              <div className="left-column">
+                  
+                  <p><strong>More</strong> about this project can be found on my <a href= " https://github.com/low-q/RFID-BookLibrary"> GitHub page.</a></p>
+
+              </div>
+          </div>
+      </div>
+
+
       
       
       
