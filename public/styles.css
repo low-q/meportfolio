@@ -22,7 +22,16 @@ body {
   }
   
 
-
+/* Remove blue underline from links */
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+  }
+  
+  /* Optionally, you can add hover and focus effects */
+  a:hover, a:focus {
+    text-decoration: underline; /* Add underline on hover/focus if desired */
+  }
 
 .main-content {
     text-align: center;
