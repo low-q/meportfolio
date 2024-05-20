@@ -6,8 +6,7 @@ function App() {
     <div className="app-container">
       <section className="main-content">
         <header>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/in/ruwais/" class="fa fa-linkedin"></a>
         </header>
         <h1 className="left-text">Fahad <br />Alotaibi</h1>
         <div className="photo-container">
