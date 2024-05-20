@@ -85,12 +85,13 @@ function App() {
                   <p>It allows users to input book information such as name, author, and genre. The script saves this information in text files named after the scanned RFID tag IDs. 
                       When a tag is rescanned, the script retrieves the corresponding book information from the saved file and performs a Google search based on the book's title and author.
                   </p>
+                  <p><strong>More</strong> about this project can be found on my <a href= " https://github.com/low-q/RFID-BookLibrary"> GitHub page.</a></p>
               </div>
               
               
               
                   
-                  <p><strong>More</strong> about this project can be found on my <a href= " https://github.com/low-q/RFID-BookLibrary"> GitHub page.</a></p>
+                  
 
               
           </div>
@@ -138,14 +139,15 @@ function App() {
                     <strong>Database Tier:</strong> Utilization of Amazon RDS with MySQL for secure data management and high availability. <br />
                   
                   </p>
-              </div>
-              
-              
-              <div className="left-column">
-                  
                   <p><strong>More</strong> about this project can be found on my <a href= " https://github.com/low-q/RFID-BookLibrary"> GitHub page.</a></p>
-
               </div>
+              
+              
+              
+                  
+                  
+
+              
           </div>
       </div>
 
