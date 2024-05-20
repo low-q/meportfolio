@@ -111,7 +111,7 @@ body {
 .left-column {
     width: 50%;
     padding: 20px;
-    text-align: left;
+    text-align: center;
     display: flex; /* Use flexbox */
     flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
 
