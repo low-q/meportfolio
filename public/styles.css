@@ -88,7 +88,7 @@ body {
 
 .right-text {
     font-size: 125px;
-    text-align: right;
+    text-align: left;
     position: absolute;
     top: 20px;
     right: 20px; /* Adjust as needed */
