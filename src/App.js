@@ -33,7 +33,7 @@ function App() {
           </button>
       </div>
 
-      <div className="split-container">
+      
           <div className="left-column">
               <h1>This is where my story begins; </h1>
               <p>It all started when I decided to take a look on how Minecraft mods work and that got me thinking, What can I do to make something like those people. 
@@ -43,7 +43,7 @@ function App() {
               </p>
               
               
-          </div>
+          
           
       </div>
       <div className="left-column">
