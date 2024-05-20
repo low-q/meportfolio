@@ -132,7 +132,7 @@ function App() {
               <div className="left-column">
                   
                   <h1>Building a 3-tier web application architecture with AWS</h1>
-                  <p>Implemented a robust AWS 3-tier architecture for Brainiac's web app, ensuring scalability, availability, and security. This included:
+                  <p>Implemented a robust AWS 3-tier architecture for Brainiac's web app, ensuring scalability, availability, and security. This included: <br />
 
                     <strong>Web Tier:</strong> Deployment of fault-tolerant web servers with Auto Scaling Groups and an Application Load Balancer. <br />
 
