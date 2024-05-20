@@ -134,11 +134,11 @@ function App() {
                   <h1>Building a 3-tier web application architecture with AWS</h1>
                   <p>Implemented a robust AWS 3-tier architecture for Brainiac's web app, ensuring scalability, availability, and security. This included:
 
-                    <strong>Web Tier:</strong> Deployment of fault-tolerant web servers with Auto Scaling Groups and an Application Load Balancer.
+                    <strong>Web Tier:</strong> Deployment of fault-tolerant web servers with Auto Scaling Groups and an Application Load Balancer. <br />
 
-                    <strong>Application Tire:</strong> Establishment of secure backend servers accessed through a Bastion host for seamless communication with the Web Tier.
+                    <strong>Application Tire:</strong> Establishment of secure backend servers accessed through a Bastion host for seamless communication with the Web Tier. <br />
 
-                    <strong>Database Tier:</strong> Utilization of Amazon RDS with MySQL for secure data management and high availability.
+                    <strong>Database Tier:</strong> Utilization of Amazon RDS with MySQL for secure data management and high availability. <br />
                   
                   </p>
               </div>
