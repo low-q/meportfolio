@@ -104,6 +104,19 @@ body {
     margin-top: 50px; /* Adjust as needed */
     font-size: 50px;
 }
+.about-us {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+    
+
+}
+.about-us p {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+    font-size: 20px;
+
+}
+
 .split-container {
     display: flex;
     justify-content: space-between;
@@ -111,7 +124,7 @@ body {
 .left-column {
     width: 50%;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     display: flex; /* Use flexbox */
     flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
 

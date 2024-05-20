@@ -34,7 +34,7 @@ function App() {
       </div>
 
       
-          <div className="left-column">
+          <div className="about-us">
               <h1>This is where my story begins; </h1>
               <p>It all started when I decided to take a look on how Minecraft mods work and that got me thinking, What can I do to make something like those people. 
                   Diving into the intricate world of Minecraft mods ignited a spark within me. As I peeled back the layers of code and creativity, 
@@ -46,7 +46,7 @@ function App() {
           
           
       </div>
-      <div className="left-column">
+      <div className="about-us">
       <h1>A little about me;</h1>
               <p>There's an indescribable joy in the rhythm of wheels on tarmac, the whispered secrets of ancient cobblestones, 
                   and the hum of languages unknown. Traveling, for me, is an art form—a symphony of sights, sounds, and sensations that awaken the senses and nourish the soul.
