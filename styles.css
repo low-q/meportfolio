@@ -215,6 +215,7 @@ body {
     max-width: 100%;
     height: auto;
     display: block; /* Ensures image is treated as a block element */
+    margin: auto; /* Centers the image horizontally */
 }
 
 
