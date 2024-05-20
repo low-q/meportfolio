@@ -90,7 +90,7 @@ function App() {
               
               <div className="left-column">
                   
-                  <p>More about this project can be found on my <a href= " https://github.com/low-q/RFID-BookLibrary"> GitHub page.</a></p>
+                  <p><strong>More</strong> about this project can be found on my <a href= " https://github.com/low-q/RFID-BookLibrary"> GitHub page.</a></p>
 
               </div>
           </div>
@@ -109,7 +109,7 @@ function App() {
              how such attacks work and why it's essential 
              to have strong security measures in place to stay safe online.</p>
              <br />
-        <p>Credits goes to: <a href="https://github.com/bigbrodude6119/flipper-zero-evil-portal">bigbrodude6119.</a>
+        <p><strong>Credits</strong> goes to: <a href="https://github.com/bigbrodude6119/flipper-zero-evil-portal">bigbrodude6119.</a>
         </p> 
         </div>
         
