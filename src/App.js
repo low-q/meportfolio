@@ -90,7 +90,7 @@ function App() {
               
               <div className="left-column">
                   
-                  <p>More about this project can be found on my GitHub page.</p>
+                  <p>More about this project can be found on my <a href= " https://github.com/low-q/RFID-BookLibrary"> GitHub page.</a></p>
 
               </div>
           </div>
