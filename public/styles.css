@@ -153,8 +153,8 @@ a {
     width: 50%;
     padding: 20px;
     text-align: left;
-    display: flex; /* Use flexbox */
-    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+   /*  display: flex; 
+    flex-wrap: wrap;  */
 
 }
 .left-column img {
