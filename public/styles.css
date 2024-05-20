@@ -105,17 +105,19 @@ body {
     font-size: 50px;
 }
 .about-us {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     margin-top: 50px; /* Adjust as needed */
-    
-
 }
+
 .about-us p {
     text-align: center;
-    margin-top: 50px; /* Adjust as needed */
     font-size: 20px;
-
+    margin-top: 20px; /* Adjust as needed */
 }
+
 
 .split-container {
     display: flex;
