@@ -2,6 +2,10 @@
 import './App.css';
 
 function App() {
+    const scrollToNextSection = () => {
+        const nextSection = document.getElementById('scroll-target');
+        nextSection.scrollIntoView({ behavior: 'smooth' });
+      };
   return (
     <div className="app-container">
       <section className="main-content">
