@@ -14,7 +14,7 @@ function App() {
             <img src="owilly.jpg" alt="Photo" />
             <img src="vball.jpg" alt="Photo" />
         </div>
-        <button className="down-arrow-button">
+        <button className="down-arrow-button" onClick={scrollToNextSection}>
             <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
@@ -27,7 +27,7 @@ function App() {
 
       <div className="white-space"></div>
 
-      <div className="about-me" id="scroll-target">
+      <div className="about-me" id="scroll-target"> 
           <h1>Who am I?</h1>
           <button className="down-arrow-button">
               <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
