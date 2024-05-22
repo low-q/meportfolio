@@ -1,11 +1,9 @@
 // App.js
 import './App.css';
+import { scrollToNextSection } from './scrollUtils'; // Import the function
 
 function App() {
-    const scrollToNextSection = () => {
-        const nextSection = document.getElementById('scroll-target');
-        nextSection.scrollIntoView({ behavior: 'smooth' });
-      };
+    
   return (
     <div className="app-container">
       <section className="main-content">
@@ -19,10 +17,10 @@ function App() {
             <img src="vball.jpg" alt="Photo" />
         </div>
         <button className="down-arrow-button" onClick={scrollToNextSection}>
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-        </button>
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+      </button>
       </section>
       
       <aside className="right-content">
