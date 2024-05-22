@@ -18,11 +18,11 @@ function App() {
             <img src="owilly.jpg" alt="Photo" />
             <img src="vball.jpg" alt="Photo" />
         </div>
-        <button className="down-arrow-button" onClick={() => scrollToNextSection('about-me')}>
-        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        <button className="down-arrow-button" onClick={scrollToNextSection}>
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
-        </button>
+      </button>
       </section>
       
       <aside className="right-content">
@@ -33,11 +33,11 @@ function App() {
 
       <div className="about-me" id="scroll-target"> 
     <h1>Who am I?</h1>
-    <button className="down-arrow-button" onClick={() => scrollToNextSection('projects-section')}>
-          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <button className="down-arrow-button" onClick={scrollToNextSection}>
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-        </button>
+        </svg>
+    </button>
 </div>
 
       
@@ -77,7 +77,7 @@ function App() {
               </svg>
           </button>
       </div>
-      <div className="projects-section" id="projects-section">
+      <div className="projects-container">
           <div className="left-half">
               <img src="pi.jpg" alt="Your Photo" />
           </div>
