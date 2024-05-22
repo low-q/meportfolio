@@ -1,6 +1,6 @@
 // App.js
 import './App.css';
-import { scrollToNextSection } from './scrollUtils'; // Import the function
+import { scrollToNextSection, scrollToNextSection1 } from './scrollUtils'; // Import the function
 
 
 
@@ -33,7 +33,7 @@ function App() {
 
       <div className="about-me" id="scroll-target"> 
     <h1>Who am I?</h1>
-    <button className="down-arrow-button" onClick={scrollToNextSection}>
+    <button className="down-arrow-button" onClick={scrollToNextSection1}>
         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
@@ -69,7 +69,7 @@ function App() {
             <img src="bakery.jpg" alt="Photo" />
             <img src="collectibles.jpg" alt="Photo" />
         </div>
-      <div className="about-me">
+      <div className="about-me" id ="scroll-target1">
           <h1>Projects</h1>
           <button className="down-arrow-button">
               <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
