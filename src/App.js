@@ -1,7 +1,7 @@
 // App.js
 import './App.css';
 import { scrollToNextSection } from './scrollUtils'; // Import the function
-import { scrollToNextSection } from './scrollUtils'; // Import the function
+
 
 
 function App() {
