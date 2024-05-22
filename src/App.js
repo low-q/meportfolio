@@ -1,6 +1,8 @@
 // App.js
 import './App.css';
 import { scrollToNextSection } from './scrollUtils'; // Import the function
+import { scrollToNextSection } from './scrollUtils'; // Import the function
+
 
 function App() {
     
@@ -30,13 +32,13 @@ function App() {
       <div className="white-space"></div>
 
       <div className="about-me" id="scroll-target"> 
-          <h1>Who am I?</h1>
-          <button className="down-arrow-button" onClick={scrollToNextSection}>
-    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-    </svg>
-</button>
-      </div>
+    <h1>Who am I?</h1>
+    <button className="down-arrow-button" onClick={scrollToNextSection}>
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+    </button>
+</div>
 
       
           <div className="about-us">
