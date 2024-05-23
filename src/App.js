@@ -12,9 +12,7 @@ function App() {
         <header>
         <a href="https://www.linkedin.com/in/ruwais/" class="fa fa-linkedin"></a>
         
-        <a href="AlotaibiFahadResume-nc.pdf" download>
-        <img src="resume.png" alt="Resume" class="resume-icon"/>
-    </a>
+        <a href="AlotaibiFahadResume-nc.pdf" download class = "fa fa-file-pdf-o"></a>
 
         </header>
         <h1 className="left-text">Fahad <br />Alotaibi</h1>
