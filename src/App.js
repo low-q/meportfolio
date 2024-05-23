@@ -11,7 +11,7 @@ function App() {
       <section className="main-content">
         <header>
         <a href="https://www.linkedin.com/in/ruwais/" class="fa fa-linkedin"></a>
-        <a href="1.pdf" download>Resume</a>
+        <a href="AlotaibiFahadResume-nc.pdf" download>Resume</a>
 
         </header>
         <h1 className="left-text">Fahad <br />Alotaibi</h1>
