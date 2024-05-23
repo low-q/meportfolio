@@ -244,6 +244,12 @@ a {
     margin: auto; /* Centers the image horizontally */
 }
 
+.resume-icon {
+    width: 32px; /* Set the width */
+    height: 32px; /* Set the height */
+}
+
+
 
 
 /* Adjustments for smaller screens */
