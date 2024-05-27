@@ -91,6 +91,10 @@ function App() {
             <div className="about-me" id="scroll-target1">
 
                 <h1>Projects</h1>
+
+                {/* White space for content. */}
+            <div className="white-space"></div>
+            
                 {/* Button for navigation. */}
                 {/* <button className="down-arrow-button">
                     <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
