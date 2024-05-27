@@ -15,6 +15,7 @@ function App() {
 
                     <a href="https://www.linkedin.com/in/ruwais/" class="fa fa-linkedin"></a>
                     <a href="AlotaibiFahadResume-nc.pdf" download class="fa fa-file-pdf-o"></a>
+                    <a href="https://github.com/low-q"class="fa fa-github"></a>
 
                 </header>
 
@@ -167,7 +168,7 @@ function App() {
             <div className="about-me" id="scroll-target1">
 
                 <h2>More Projects coming soon...</h2>
-                
+
             </div>
         </div>
     );
