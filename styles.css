@@ -3,7 +3,7 @@ body {
 
     font-family: Optima;
 }
-/*icons */
+/*Header styling */
 .fa {
     padding: 0px;
     font-size: 30px;
@@ -22,28 +22,31 @@ body {
   }
   
 
-/* Remove blue underline from links */
+/* Remove blue color from links */
 a {
-    text-decoration: none; /* Remove underline */
     color: inherit; /* Inherit text color */
   }
   
-  /* Optionally, you can add hover and focus effects */
+  /*hover and focus effects for links */
   a:hover, a:focus {
     text-decoration: underline; /* Add underline on hover/focus if desired */
   }
+  
 
+  /* the main content includes the three photos and my name */
 .main-content {
     text-align: center;
     margin: 20px auto;
     width: 80%; /* Adjust width as needed */
 }
 
+/* Aligning text to the left.  */
 .left-text {
     font-size: 125px;
     text-align: left;
 }
 
+/* Aligning text to the right.  */
 .right-text {
     font-size: 125px;
     text-align: right;
@@ -56,20 +59,21 @@ a {
 
 
 
-.photo {
-    display: flex; /* Use flexbox for layout */
-    justify-content: center; /* Center align horizontally */
-    align-items: center; /* Center align vertically */
-    margin-top: 20px; /* Adjust margin as needed */
-}
+/* .photo {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+} */
 
 
-.photo img {
-    width: 15%; /* Adjust the width of each photo */
+/* .photo img {
+    width: 15%; 
     height: auto;
-    margin-right: 10px; /* Add space between photos */
-}
+    margin-right: 10px; 
+} */
 
+/* Syle for buttons.  */
 .down-arrow-button {
     background-color: transparent;
     border: none;
@@ -78,6 +82,12 @@ a {
     padding: 0;
 }
 
+
+.about-me {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+    font-size: 50px;
+}
 
 .about-me h1 {
     margin-bottom: 0px; /* Adjust as needed */
@@ -88,7 +98,7 @@ a {
 }
 
 
-/* Your existing styles */
+
 
 
 
@@ -125,11 +135,7 @@ a {
    .white-space {
     height: 550px; /* Adjust as needed */
 }
-.about-me {
-    text-align: center;
-    margin-top: 50px; /* Adjust as needed */
-    font-size: 50px;
-}
+
 .about-us {
     display: flex;
     align-items: center;
