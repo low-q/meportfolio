@@ -92,9 +92,8 @@ function App() {
 
                 <h1>Projects</h1>
 
-                {/* White space for content. */}
-            <div className="white-space"></div>
-            
+                
+
                 {/* Button for navigation. */}
                 {/* <button className="down-arrow-button">
                     <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -108,7 +107,7 @@ function App() {
 
                 <div className="left-half">
                     {/* Pi 4 + RFID Photo. */}
-                    <img src="pi.jpg" alt="Your Photo" />
+                    <img src="pi.jpg" alt="Photo" />
                 </div>
                 {/* First Project.  */}
                 <div className="right-half">
@@ -148,7 +147,7 @@ function App() {
             <div className="projects-container">
                 <div className="left-half">
                     {/* AWS Diagram Photo.  */}
-                    <img src="aws.png" alt="Your Photo" />
+                    <img src="aws.png" alt="Photo" />
                 </div>
                 {/* Third Project.  */}
                 <div className="right-half">

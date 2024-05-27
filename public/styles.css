@@ -1,9 +1,10 @@
+/* Global Styles */
 body {
     background-color: #f7ffe6;
-
     font-family: Optima;
 }
-/*icons */
+
+/* Icons */
 .fa {
     padding: 0px;
     font-size: 30px;
@@ -11,27 +12,24 @@ body {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-  }
+}
 .fa:hover {
     opacity: 0.7;
 }
-
 .fa-linkedin {
     background: #f7ffe6;
     color: black;
-  }
-  
+}
 
-/* Remove blue underline from links */
+/* Links */
 a {
     color: inherit; /* Inherit text color */
-  }
-  
-  /* Optionally, you can add hover and focus effects */
-  a:hover, a:focus {
+}
+a:hover, a:focus {
     text-decoration: underline; /* Add underline on hover/focus if desired */
-  }
+}
 
+/* Main Content */
 .main-content {
     text-align: center;
     margin: 20px auto;
@@ -51,24 +49,20 @@ a {
     width: calc(100% - 20px); /* Subtract the margin of the photo from the width */
 }
 
-
-
-
-
+/* Photo */
 .photo {
     display: flex; /* Use flexbox for layout */
     justify-content: center; /* Center align horizontally */
     align-items: center; /* Center align vertically */
     margin-top: 20px; /* Adjust margin as needed */
 }
-
-
 .photo img {
     width: 15%; /* Adjust the width of each photo */
     height: auto;
     margin-right: 10px; /* Add space between photos */
 }
 
+/* Down Arrow Button */
 .down-arrow-button {
     background-color: transparent;
     border: none;
@@ -77,58 +71,14 @@ a {
     padding: 0;
 }
 
-
-.about-me h1 {
-    margin-bottom: 0px; /* Adjust as needed */
-}
-
-.about-me button.down-arrow-button {
-    margin-top: 0px; /* Adjust as needed */
-}
-
-
-/* Your existing styles */
-
-
-
-.photo-container {
-    display: flex;
-    justify-content: center; /* Horizontally center the photos */
-    align-items: center; /* Vertically center the photos */
-    margin-top: 20px;
-}
-
-.photo-container img {
-    width: 15%;
-    height: auto;
-    margin-right: 10px;
-}
-
-
-.right-content {
-    position: relative;
-    width: 80%;
-    margin: 20px auto;
-}
-
-.right-text {
-    font-size: 125px;
-    text-align: right;
-    position: absolute;
-    top: 20px;
-    right: 20px; /* Adjust as needed */
-    width: calc(100% - 40px); /* Adjust as needed */
-    margin: 0;
-}
-   /* Additional CSS styles */
-   .white-space {
-    height: 550px; /* Adjust as needed */
-}
+/* About Me Section */
 .about-me {
     text-align: center;
     margin-top: 50px; /* Adjust as needed */
     font-size: 50px;
 }
+
+/* About Us Section */
 .about-us {
     display: flex;
     align-items: center;
@@ -136,46 +86,38 @@ a {
     flex-direction: column;
     margin-top: 50px; /* Adjust as needed */
 }
-
 .about-us p {
     text-align: center;
     font-size: 20px;
     margin-top: 20px; /* Adjust as needed */
 }
 
-
+/* Split Container */
 .split-container {
     display: flex;
     justify-content: space-between;
 }
+
+/* Left Column */
 .left-column {
     width: 50%;
     padding: 20px;
     text-align: left;
     display: flex; 
     flex-wrap: wrap; 
-
 }
 .left-column img {
     width: 30%; /* Adjust the width of each image */
     height: auto; /* Maintain aspect ratio */
     margin-right: 10px; /* Add space between images */
 }
-
-
 .left-column p {
     font-size: 20px; /* Adjust as needed */
     line-height: 2.0; /* Adjust as needed */
     margin-bottom: 20px; /* Adjust as needed */
-    
 }
 
-/* Additional CSS styles */
-
-/* Additional CSS styles */
-
-
-
+/* Right Column */
 .right-column {
     width: 50%;
     position: relative; /* Ensure proper stacking context for child elements */
@@ -184,23 +126,18 @@ a {
     justify-content: center; /* Center align horizontally */
 }
 
-
-
-
+/* Projects Container */
 .projects-container {
     display: flex;
 }
-
 .left-half {
     width: 50%;
 }
-
 .right-half {
     width: 50%;
-   
-    
 }
 
+/* Top Right Section */
 .top-right {
     height: 50%;
     text-align: left;
@@ -211,81 +148,41 @@ a {
     font-size: 20px;
 }
 
+/* Lower Right Section */
 .lower-right {
     height: 50%;
 }
-.left-half img {
-    max-width: 100%;
-    height: auto;
-    display: block; /* Ensures image is treated as a block element */
-    margin: auto; /* Centers the image horizontally */
-}
-
-.resume-icon {
-    width: 24px; /* Set the width */
-    height: 24px; /* Set the height */
-}
-
-
-
-
-/* Adjustments for smaller screens */
-/* Existing styles */
 
 /* Adjustments for smaller screens */
 @media screen and (max-width: 768px) {
-    /* Adjust main content width for smaller screens */
     .main-content {
         width: 90%; /* Adjust width for smaller screens */
     }
-
-    /* Reduce font size for smaller screens */
     .left-text,
     .right-text {
         font-size: 100px; /* Adjust font size for smaller screens */
     }
-
-    /* Adjust photo size for smaller screens */
     .photo-container img {
         width: 25%; /* Adjust photo size for smaller screens */
     }
-
-    /* Adjust padding and font size for smaller screens */
     .left-column {
         padding: 10px; /* Adjust padding for smaller screens */
     }
-
     .left-column p {
         font-size: 18px; /* Adjust font size for smaller screens */
     }
-
-    /* Adjust resume photo size for smaller screens */
-    .resume-photo {
-        height: 800px; /* Adjust resume photo size for smaller screens */
-    }
-
-    /* Adjust photo size in left-half for smaller screens */
     .left-half img {
         max-width: 80%; /* Adjust photo size for smaller screens */
     }
-
-    /* Adjust font size in top-right section for smaller screens */
     .top-right h1 {
         font-size: 16px; /* Adjust font size for smaller screens */
     }
-
-    /* Adjustments for projects container on smaller screens */
-    .projects-container {
-        flex-direction: column; /* Stack items vertically */
-    }
-    
+    .projects-container,
     .left-half,
     .right-half {
         width: 100%; /* Set width to full for smaller screens */
-        margin-bottom: 20px; /* Add margin between the halves */
+        margin-bottom: 20px; /* Add margin between elements */
     }
-
-    /* Adjustments for split container on smaller screens */
     .split-container {
         flex-direction: column; /* Stack items vertically */
     }
@@ -293,60 +190,27 @@ a {
 
 /* Further adjustments for even smaller screens */
 @media screen and (max-width: 480px) {
-    /* Adjust main content width for even smaller screens */
     .main-content {
         width: 95%; /* Adjust width for even smaller screens */
     }
-
-    /* Reduce font size further for even smaller screens */
     .left-text,
     .right-text {
         font-size: 80px; /* Adjust font size for even smaller screens */
     }
-
-    /* Adjust photo size further for even smaller screens */
     .photo-container img {
         width: 35%; /* Adjust photo size for even smaller screens */
     }
-
-    /* Adjust padding and font size further for even smaller screens */
     .left-column {
         padding: 5px; /* Adjust padding for even smaller screens */
     }
-
     .left-column p {
         font-size: 16px; /* Adjust font size for even smaller screens */
     }
-
-    /* Adjust resume photo size further for even smaller screens */
-    .resume-photo {
-        height: 600px; /* Adjust resume photo size for even smaller screens */
-    }
-
-    /* Adjust photo size in left-half further for even smaller screens */
     .left-half img {
         max-width: 100%; /* Adjust photo size for even smaller screens */
     }
-
-    /* Adjust font size in top-right section further for even smaller screens */
     .top-right h1 {
         font-size: 14px; /* Adjust font size for even smaller screens */
-    }
-
-    /* Adjustments for projects container on even smaller screens */
-    .projects-container {
-        flex-direction: column; /* Stack items vertically */
-    }
-    
-    .left-half,
-    .right-half {
-        width: 100%; /* Set width to full for even smaller screens */
-        margin-bottom: 20px; /* Add margin between the halves */
-    }
-
-    /* Adjustments for split container on even smaller screens */
-    .split-container {
-        flex-direction: column; /* Stack items vertically */
     }
 }
 
