@@ -63,7 +63,7 @@ function App() {
                 <h1>This is where my story begins:</h1>
                 <p>It all started when I decided to take a look on how Minecraft mods work and that got me thinking, what can I do to make something like those people? <br />
                     Learning more about modding and using code to break or edit something have started a strong passion within me.
-                    I found out that there are endless potential for innovation when it comes to the world of computer science. 
+                    I found out that there are endless potential for innovation when it comes to the world of computer science. <br />
                     It wasn't long for me before I started taking a deeper dive and reading people's projects online to gain the most knowledge I can. 
                 </p>
 
