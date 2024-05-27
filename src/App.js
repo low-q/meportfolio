@@ -7,7 +7,7 @@ import { scrollToNextSection, scrollToNextSection1 } from './scrollUtils'; // Im
 function App() {
 
     return (
-        <div className="app-container">
+        <div>
             {/* Main Section. */}
             <section className="main-content">
                 {/* Links to LinkedIn and Resume.  */}
