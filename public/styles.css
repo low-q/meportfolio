@@ -174,19 +174,8 @@ a {
 /* Additional CSS styles */
 
 /* Additional CSS styles */
-.resume-photo {
-    max-width: 100%;
-    height: 1117px;
-    transition: transform 2s ease, opacity 1s ease; /* Add opacity transition */
-    visibility: hidden; /* Hide the resume initially */
-    opacity: 0; /* Hide the resume initially */
-}
 
-.right-column:hover .resume-photo {
-    visibility: visible; /* Show the resume on hover */
-    opacity: 1; /* Show the resume on hover */
-    transform: rotateY(0deg); /* Rotate the resume on hover */
-}
+
 
 .right-column {
     width: 50%;
@@ -196,20 +185,9 @@ a {
     justify-content: center; /* Center align horizontally */
 }
 
-.resume-text {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 100%;
-    transition: opacity 1s ease; /* Add opacity transition */
-    opacity: 1; /* Ensure text is visible by default */
-    text-align: center;
-}
 
-.right-column:hover .resume-text {
-    opacity: 0; /* Fade out the text on hover */
-}
+
+
 .projects-container {
     display: flex;
 }
