@@ -61,9 +61,9 @@ function App() {
                 {/* First Paragraph. */}
                 <h1>This is where my story begins:</h1>
                 <p>It all started when I decided to take a look on how Minecraft mods work and that got me thinking, What can I do to make something like those people.
-                    Diving into the intricate world of Minecraft mods ignited a spark within me. As I peeled back the layers of code and creativity,
-                    I found myself captivated by the endless potential for innovation.
-                    It wasn't long before a question began to form in my mind, one that would shape my journey moving forward: What unique creation could I craft to leave my mark among these skilled modders?
+                    Learning more about modding and using code to break or edit something have started a strong passion within me.
+                    I found out that there are endless potential for innovation when it comes to the world of computer science. 
+                    It wasn't long for me before I started taking a deeper dive and reading people's projects online to gain the most knowledge I can. 
                 </p>
 
             </div>
@@ -71,12 +71,7 @@ function App() {
             <div className="about-us">
                 {/* Second Paragraph. */}
                 <h1>A little about me:</h1>
-                <p>There's an indescribable joy in the rhythm of wheels on tarmac, the whispered secrets of ancient cobblestones,
-                    and the hum of languages unknown. Traveling, for me, is an art form—a symphony of sights, sounds, and sensations that awaken the senses and nourish the soul.
-
-                    Each journey is a narrative waiting to unfold, a story woven from chance encounters, serendipitous moments,
-                    and unexpected detours. Whether I'm navigating the winding alleys of a bustling bazaar or gazing in awe at the vast expanse of an untouched landscape,
-                    every step taken is a step closer to understanding the rich tapestry of humanity and the world we inhabit.
+                <p>
                 </p>
             </div>
             {/* Middle Three Photos. */}
@@ -166,6 +161,13 @@ function App() {
                         <p><strong>More</strong> about this project can be found on my <a href=" https://github.com/low-q/RFID-BookLibrary"> GitHub page.</a></p>
                     </div>
                 </div>
+            </div>
+
+
+            <div className="about-me" id="scroll-target1">
+
+                <h2>More Projects coming soon...</h2>
+                
             </div>
         </div>
     );
