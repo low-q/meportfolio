@@ -86,6 +86,8 @@ function App() {
 
             </div>
             </section>
+            {/* White space for content. */}
+            <div className="white-space1"></div>
             <section>
             {/* Projects Section. */} 
             <div className="about-me" id="scroll-target1">
