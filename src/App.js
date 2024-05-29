@@ -91,6 +91,7 @@ function App() {
             <div className="about-me" id="scroll-target1">
 
                 <h1>Projects</h1>
+    
 
                 
 
@@ -102,6 +103,9 @@ function App() {
                 </button> */}
 
             </div>
+
+            {/* White space for content. */}
+            <div className="white-space1"></div>
 
             <div className="projects-container">
 
