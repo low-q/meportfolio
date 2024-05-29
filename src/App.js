@@ -74,7 +74,10 @@ function App() {
             <div className="about-us">
                 {/* Second Paragraph. */}
                 <h1>A little about me:</h1>
-                <p>
+                <p>Ever since I was young, I had the urge to explore and learn all about different things. I always loved to learn the most I could about any topic and try to 
+                    cover all the fundamentals. Traveling is something that I always look forward to. I love exploring different cultures and trying their cultural dishes.
+                    When I travel, I always like to take as many photos as I can so I can keep the most memories with me. However, I like to do that after I have fully explored the place with no
+                    the technology involved to fully live the experience.
                 </p>
             </div>
             {/* Middle Three Photos. */}
