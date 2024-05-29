@@ -45,18 +45,19 @@ function App() {
             {/* White space for content. */}
             <div className="white-space"></div>
 
-
+            <section>
             {/* About me Section. */}
             <div className="about-me" id="scroll-target">
                 <h1>Who am I?</h1>
-                
-            </div>
-            {/* Button for navigation. */}
+                {/* Button for navigation. */}
             <button className="down-arrow-button" onClick={scrollToNextSection1}>
                     <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </button>
+                
+            </div>
+            
 
 
             <div className="about-us">
@@ -84,6 +85,8 @@ function App() {
                 <img src="collectibles.jpg" alt="Photo" />
 
             </div>
+            </section>
+            <section>
             {/* Projects Section. */} 
             <div className="about-me" id="scroll-target1">
 
@@ -164,6 +167,7 @@ function App() {
                     </div>
                 </div>
             </div>
+            </section>
 
 
             <div className="about-me" id="scroll-target1">
