@@ -63,10 +63,11 @@ function App() {
             <div className="about-us">
                 {/* First Paragraph. */}
                 <h1>This is where my story begins:</h1>
-                <p>It all started when I decided to take a look on how Minecraft mods work and that got me thinking, what can I do to make something like those people? <br />
-                    Learning more about modding and using code to break or edit something have started a strong passion within me.
-                    I found out that there are endless potential for innovation when it comes to the world of computer science. <br />
-                    It wasn't long for me before I started taking a deeper dive and reading people's projects online to gain the most knowledge I can. 
+                <p>It all started when I decided to take a look at how Minecraft mods work and it got me thinking, what can I do to create something like those people?  <br />
+                    I began to learn more about modding and how to use code to break and edit and it lit a fire within me.
+                    I found that there is endless potential for innovation when it comes to the world of computer science. <br />
+                    It wasn't long before I started taking a deeper dive and reading projects online to gain as much knowledge as I could.
+ 
                 </p>
 
             </div>
@@ -74,10 +75,10 @@ function App() {
             <div className="about-us">
                 {/* Second Paragraph. */}
                 <h1>A little about me:</h1>
-                <p>Ever since I was young, I had the urge to explore and learn all about different things. I always loved to learn the most I could about any topic and try to 
-                    cover all the fundamentals.<br /> Traveling is something that I always look forward to. I love exploring different cultures and trying their cultural dishes.
-                    <br />When I travel, I always like to take as many photos as I can so I can keep the most memories with me. However, I like to do that after I have fully explored the place with no
-                    the technology involved to fully live the experience.
+                <p>Ever since I was young, I have had the urge to explore and learn about different things. I have always loved to learn everything I could about any topic and try to cover all the fundamentals.
+                    <br /> Traveling is something that I love to do. I enjoy exploring different cultures and trying their cultural dishes.
+                    <br />When I travel, I like to take as many photos as I can so I can keep the memories with me.
+                     However, my favorite part is fully immersing myself in the place I am staying with no the technology so I can live presently in the experience.
                 </p>
             </div>
             {/* Middle Three Photos. */}
@@ -172,7 +173,7 @@ function App() {
                             <strong>Database Tier:</strong> Utilization of Amazon RDS with MySQL for secure data management and high availability. <br />
 
                         </p>
-                        <p><strong>More</strong> about this project can be found on my <a href=" https://github.com/low-q/RFID-BookLibrary"> GitHub page.</a></p>
+                        {/* <p><strong>More</strong> about this project can be found on my <a href=" https://github.com/low-q/RFID-BookLibrary"> GitHub page.</a></p> */}
                     </div>
                 </div>
             </div>
